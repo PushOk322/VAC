@@ -1,0 +1,41 @@
+@import 'fonts.scss';
+@import 'reset.scss';
+@import 'main.scss';
+
+@import 'search.scss';
+@import 'cards.scss';
+@import 'featured.scss';
+
+html {
+    overflow-x: hidden;
+        min-width: 0;
+}
+
+html._lock {
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    background: #1D2228;
+        min-width: 0;
+}
+
+body._lock {
+    overflow-y: hidden;
+}
+
+#root{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    background: #1D2228;
+    min-width: 0;
+}
