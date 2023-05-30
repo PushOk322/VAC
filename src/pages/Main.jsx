@@ -1,9 +1,11 @@
-import SearchBar from "./components/SearchBar.jsx";
-import MainSwiper from "./components/Swiper.jsx";
-import Featured from "./components/Featured.jsx";
-import Cards from "./components/Cards.jsx";
+import SearchBar from "../components/SearchBar.jsx";
+import MainSwiper from "../components/Swiper.jsx";
+import Featured from "../components/Featured.jsx";
+import Cards from "../components/Cards.jsx";
+import { Link } from 'react-router-dom';
 const Main = () => {
     return (
+        
         <>
             <SearchBar></SearchBar>
             <div className="main">
@@ -29,7 +31,9 @@ const Main = () => {
                             <div className="main-hero__price">1,5M</div>
                         </div>
                         <div className="main-hero__buttons">
-                            <button className="main-hero__view">View</button>
+                            <Link to="/artwork">
+                                <button className="main-hero__view">View</button>
+                            </Link>
                             <button className="main-hero__button">
                                 <img src="./img/external-link.svg" alt="" className="main-hero__button-icon" />
                             </button>
@@ -39,12 +43,12 @@ const Main = () => {
                             <button className="main-hero__button">
                                 <img src="./img/options.svg" alt="" className="main-hero__button-icon" />
                             </button>
-                        </div>        
+                        </div>
                     </div>
                 </div>
                 <div className="main-slider__wrapper">
                     <MainSwiper></MainSwiper>
-                </div>                
+                </div>
             </div>
             <div className="main-filters">
                 <div className="main-filters__filter">Recently added<img src="./img/filter-arrow.svg" alt="" className="main-filters__arrow" /></div>
