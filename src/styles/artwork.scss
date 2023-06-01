@@ -1,0 +1,496 @@
+.artwork-hero {
+    margin: 40px 0 0 0;
+    width: 100%;
+    max-width: 1318px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img {
+        width: 1318px;
+        height: 582px;
+        border-radius: 1px;
+    }
+
+    &__bid {
+        margin: -42px 0 0 0;
+        width: 518px;
+        height: 75px;
+        background: #30363D;
+        box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    &__current {
+        margin: 17px 16.5px 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    &__word {
+        font-family: 'Raleway-600';
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: row;
+        gap: 4.5px;
+    }
+
+    &__icon {
+        margin-right: 1px;
+        width: 19px;
+        height: 19px;
+    }
+
+    &__numbers {
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+
+        span {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+
+    &__dollars {
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__line {
+        margin: 16px 0 0 0;
+        width: 3px;
+        height: 43px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 12px;
+    }
+
+    &__auction {
+        margin: 17px 20px 0 19.5px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    &__ending-time {
+        display: flex;
+        flex-direction: row;
+        gap: 8.5px;
+    }
+
+    &__button {
+        margin: 17px 0 0 20px;
+        width: 138px;
+        height: 40px;
+        background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+        box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+        border-radius: 12px;
+        padding: 13px 32px;
+        font-family: 'Raleway-700';
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+}
+
+.place-bid {
+width: 653px;
+height: 0px;
+position:absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 247px;
+background: #30363D;
+box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+border-radius: 32px;
+transition: 0.3s;
+visibility: hidden;
+opacity: 0;
+    &.active{
+        transition: 0.3s;
+        height: 268px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+        &__cross {
+            top: 51px;
+            right: -612px;
+            position: relative;
+            width: 20px;
+            height: 20px;
+        }
+    
+        &__cross:hover {
+            cursor: pointer;
+        }
+    
+        &__cross:hover::before {
+            right: 76%;
+            transition: 0.2s;
+        }
+    
+        &__cross:hover::after {
+            left: 76%;
+            transition: 0.2s;
+        }
+    
+        &__cross::before,
+        &__cross::after {
+            content: "";
+            position: absolute;
+            background-color: white;
+        }
+    
+        &__cross::before {
+            width: 3px;
+            height: 100%;
+            right: 8px;
+            top: 0px;
+            transform: rotate(45deg);
+            border-radius: 4px;
+            transition: 0.2s;
+        }
+    
+        &__cross::after {
+            width: 3px;
+            height: 100%;
+            top: 0px;
+            left: 8px;
+            transform: rotate(-45deg);
+            border-radius: 4px;
+            transition: 0.2s;
+        }
+
+    &__title {
+        margin: 25px 0 0 0;
+        font-family: 'Raleway-700';
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__min {
+        margin: 24px 0 0 24px;
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__form {
+        margin: 8px 0 0 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+    &__input-container {
+        width: 176px;
+        height: 40px;
+        background: #1D2228;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+
+    &__input {
+        margin: 11px 0 0 16px;
+        width: 95px;
+        height: 19px;
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background: transparent;
+    }
+
+    &__input-placeholder {
+        margin: 12px 0 0 0;
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__dollars {
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__button {
+        margin: 32px 0 0 248px;
+        width: 157px;
+        height: 40px;
+        background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+        box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+        border-radius: 12px;
+        font-family: 'Raleway-700';
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.activity {
+    margin: 32px 0 0 16px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1335px;
+
+    &__user {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__user-box {
+        display: flex;
+        flex-direction: row;
+        gap: 11.5px;
+    }
+
+    &__hero-avatar {
+        margin: 0 0 0 0px;
+        width: 49px;
+        height: 49px;
+    }
+
+    &__user-container {
+        margin: 7px 0 0 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__username {
+        font-family: 'Raleway-700';
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    &__usertag {
+        font-family: 'Raleway-500';
+        font-size: 14px;
+        line-height: 16px;
+        background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+
+
+
+    &__title {
+        margin: 20px 0 3px 0;
+        font-family: 'Raleway-700';
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        max-width: 517px;
+        margin: 10px 0 0 0.5px;
+        font-family: 'Raleway-500';
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+
+        span {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+
+
+
+
+    &__buttons {
+        margin: 15px 0 0 1px;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    &__button {
+        width: 40px;
+        height: 40px;
+        mix-blend-mode: normal;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 0px;
+        background: transparent;
+    }
+
+    &__button-icon {
+        width: 20px;
+        height: 19px;
+    }
+
+
+
+
+
+
+
+
+    &__main {
+        margin: 7px 0 0 23px;
+        width: 100%;
+        max-width: 791px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading {
+        font-family: 'Raleway-700';
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    &__list {
+        margin: 15px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        height: 442px;
+        overflow-y: scroll;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 778px;
+        height: 100%;
+        height: 67px;
+        border: 1px solid #333940;
+        overflow: visible;
+    }
+
+    &__bid-info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__avatar {
+        margin: 15px 0 18px 15px;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__bid-call {
+        margin: 12px 0 0 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5px;
+    }
+
+    &__bid-tag {
+        font-family: 'Raleway-700';
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    &__bid-date {
+        font-family: 'Raleway-500';
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__bid-price {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__price-icon {
+        margin: 22px 6px 0 0;
+        width: 19px;
+        height: 19px;
+    }
+
+    &__price {
+        margin: 22px 10px 0 0;
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+
+        span {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+
+    &__share-button {
+        margin: 16px 15px 0 0;
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+        box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+        border-radius: 12px;
+        padding: 6px;
+    }
+
+    &__share-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+::-webkit-scrollbar {
+    margin-left: 10px;
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 99px;
+}
+
+
+
+.artwork-cards {
+    margin: 100px 0 75px -3px;
+    width: 100%;
+    max-width: 1317px;
+
+    &__title {
+        margin: 0 0 -2px 1px;
+        font-family: 'Raleway-700';
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+}
