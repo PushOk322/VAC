@@ -1,0 +1,365 @@
+.profile-search {
+    width: 100%;
+    max-width: 1366px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    background: #30363D;
+    border-radius: 0px 0px 32px 32px;
+
+    &__logo {
+        margin: 2px 0 0 25px;
+    }
+
+    &__bar {
+        margin: 11.5px 0 0 25px;
+        width: 100%;
+        max-width: 854px;
+        height: 32px;
+        background: #1D2228;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__icon {
+        margin: 6.5px 0 0 12px;
+        width: 20px;
+        height: 20px;
+    }
+
+    &__input {
+        margin: 3px 0 0 8px;
+        width: 100%;
+        max-width: 854px;
+        font-family: 'Raleway-600';
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        background: transparent;
+    }
+
+    &__button {
+        margin: 11px 0 0 15px;
+        padding: 11px 19px;
+        width: 118px;
+        height: 33px;
+        background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+        box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+        border-radius: 12px;
+        font-family: 'Raleway-700';
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    &__user-box {
+        width: 267px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        pointer-events: auto;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    &__avatar {
+        margin: 8px 0 0 16px;
+        width: 40px;
+        height: 40px;
+    }
+
+    &__user-container {
+        margin: 11px 0 0 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    &__username {
+        font-family: 'Raleway-700';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &__usertag {
+        font-family: 'Raleway-500';
+        font-size: 12px;
+        line-height: 14px;
+        background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    &__tag-balance {
+        margin: 1px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    &__balance {
+        margin: -1px 0 0 1px;
+        font-family: 'Raleway-600';
+        font-size: 12px;
+        line-height: 14px;
+        color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        span {
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__balance-icon {
+        width: 16px;
+        height: 16px;
+        margin: 0 3px 0 4px;
+    }
+
+    &__arrow {
+        margin: 26px 0 0 -4px;
+        width: 12px;
+        height: 7px;
+        transition: 0.2s;
+
+        &.active {
+            transform: rotate(180px);
+            transition: 0.2s;
+        }
+    }
+
+
+}
+
+.profile-drop {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: auto;
+    z-index: -1;
+    width: 267px;
+    height: 180px;
+    background: #30363D;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &.active {
+        visibility: visible;
+        transition: 0.2s;
+    }
+
+    &__adress {
+        margin: 64px 0 3px 12px;
+        font-family: 'Raleway-600';
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__link {
+        margin: 10px 0 0 12px;
+        font-family: 'Raleway-600';
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: transparent;
+    }
+
+    &__logout {
+        margin: 12px 0 0 12px;
+        font-family: 'Raleway-600';
+        font-size: 14px;
+        line-height: 18px;
+        color: #FF5E54;
+        background: transparent;
+    }
+}
+
+
+
+.profile-hero {
+    margin: 40px 0 0 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1318px;
+
+    &__user {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__user-box {
+        display: flex;
+        flex-direction: row;
+        gap: 11.5px;
+    }
+
+    &__hero-avatar {
+        margin: 0 0 0 0px;
+        width: 49px;
+        height: 49px;
+    }
+
+    &__user-container {
+        margin: 6px 0 0 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__username {
+        font-family: 'Raleway-700';
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    &__usertag {
+        font-family: 'Raleway-500';
+        font-size: 14px;
+        line-height: 16px;
+        background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+
+    &__follow-box {
+        margin: 4px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    &__text-container {
+        margin: 2px 0px 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    &__light-text {
+        font-family: 'Raleway-600';
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    &__grey-text {}
+
+    font-family: 'Raleway-400';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+
+    &__follow-button {
+        margin: 0 -4px 0 0;
+        width: 109px;
+        height: 40px;
+        background: linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+        box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+        border-radius: 12px;
+        padding: 13px 32px;
+        font-family: 'Raleway-700';
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    &__buttons {
+        margin: 0px 0 0 0px;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    &__button {
+        width: 40px;
+        height: 40px;
+        mix-blend-mode: normal;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 0px;
+        background: transparent;
+    }
+
+    &__button-icon {
+        width: 20px;
+        height: 19px;
+    }
+
+
+
+
+
+    &__socials {
+        margin: 25px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        gap: 24.5px;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &__social-icon {
+        margin-top: -1px;
+    }
+
+
+
+
+    &__text {
+        margin: 17px 0 0 0;
+        max-width: 1061px;
+        font-family: 'Raleway-500';
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+
+        span {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+
+
+.profile-cards {
+    margin: 40px 0 75px 0px;
+    width: 100%;
+    max-width: 1317px;
+
+    &__title {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    &__pick {
+        font-family: 'Raleway-700';
+        font-size: 18px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+
+        &.active {
+            color: #FFFFFF;
+        }
+    }
+}

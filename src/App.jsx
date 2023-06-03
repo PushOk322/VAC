@@ -1,7 +1,7 @@
 import Main from './pages/Main.jsx';
 import Artwork from './pages/Artwork.jsx';
 import Creator from './pages/Creator.jsx';
-
+import Profile from './pages/Profile.jsx'
 
 import React from "react";
 
@@ -15,7 +15,7 @@ const App = () => {
                 <Route exact path="/" element={<Main />} />
                 <Route path="/artwork" element={<Artwork/>} />
             </Routes> */}
-            <Creator/>
+            <Profile/>
         </>
     );
 };
