@@ -17,7 +17,7 @@ export default () => {
         >
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -25,7 +25,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -33,7 +33,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -41,7 +41,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -49,7 +49,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -57,7 +57,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -65,7 +65,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -73,7 +73,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -81,7 +81,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -89,7 +89,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -97,7 +97,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -105,7 +105,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -113,7 +113,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -121,7 +121,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -129,7 +129,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -137,7 +137,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>
@@ -145,7 +145,7 @@ export default () => {
             </SwiperSlide>
             <SwiperSlide className='featured__slide'>
                 <div className="featured__wrapper">
-                    <img src="../img/featured-img-1.png" alt="" className="featured__img" />
+                    <img src="./img/featured-img-1.png" alt="" className="featured__img" />
                     <div className="featured__username">User Name</div>
                     <div className="featured__usertag">@username</div>
                     <div className="featured__sales">24 sales on 32ETH</div>

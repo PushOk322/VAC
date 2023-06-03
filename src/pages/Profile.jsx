@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-import SearchBar from "../components/SearchBar.jsx";
 import Cards from "../components/Cards.jsx";
-import BidPopUp from "../components/BidPopUp.jsx";
 
 const Profile = () => {
     const [dropActive, setDropActive] = useState(true);

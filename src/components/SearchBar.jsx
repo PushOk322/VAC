@@ -1,14 +1,20 @@
+import { Link } from 'react-router-dom';
+
 const SearchBar = () => {
     return (
         <div className="search">
+            <Link to="/">
             <picture>
                 <img src="./img/search-logo.svg" alt="" className="search__logo" />
-            </picture>
+                </picture>
+            </Link>
             <form action="#" className="search__bar">
                 <img src="./img/search-icon.svg" alt="" className="search__icon" />
                 <input type="text" className="search__input" placeholder="Search for ..." />
             </form>
-            <button className="search__button">Connect wallet</button>
+            <Link to="/profile">
+                <button className="search__button">Connect wallet</button>
+            </Link>
         </div>
     );
     

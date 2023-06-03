@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import SearchBar from "../components/SearchBar.jsx";
 import Cards from "../components/Cards.jsx";
@@ -38,6 +39,7 @@ const Artwork = () => {
 
             <div className="activity">
                 <div className="activity__user">
+                    <Link to="/creator"></Link>
                     <div className="activity__user-box">
                         <img src="./img/user-avatar.svg" className="activity__hero-avatar"></img>
                         <div className="activity__user-container">

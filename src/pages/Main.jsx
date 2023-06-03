@@ -2,7 +2,9 @@ import SearchBar from "../components/SearchBar.jsx";
 import MainSwiper from "../components/Swiper.jsx";
 import Featured from "../components/Featured.jsx";
 import Cards from "../components/Cards.jsx";
+
 import { Link } from 'react-router-dom';
+
 const Main = () => {
     return (
         
