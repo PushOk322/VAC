@@ -15,7 +15,7 @@ const App = () => {
                 <Route exact path="/" element={<Main />} />
                 <Route path="/artwork" element={<Artwork/>} />
             </Routes> */}
-            <Profile/>
+            <Main/>
         </>
     );
 };

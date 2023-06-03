@@ -46,19 +46,19 @@ const Creator = () => {
                 </div>
                 <div className="creator-hero__socials">
                     <div className="creator-hero__social">
-                        <img src="../img/twitch-icon.svg" alt="" className="creator-hero__social-icon" />
+                        <img src="./img/twitch-icon.svg" alt="" className="creator-hero__social-icon" />
                         Twitch
                     </div>
                     <div className="creator-hero__social">
-                        <img src="../img/insta-icon.svg" alt="" className="creator-hero__social-icon" />
+                        <img src="./img/insta-icon.svg" alt="" className="creator-hero__social-icon" />
                         Instagram
                     </div>
                     <div className="creator-hero__social">
-                        <img src="../img/twitter-icon.svg" alt="" className="creator-hero__social-icon" />
+                        <img src="./img/twitter-icon.svg" alt="" className="creator-hero__social-icon" />
                         Twitter
                     </div>
                     <div className="creator-hero__social">
-                        <img src="../img/only-icon.svg" alt="" className="creator-hero__social-icon" />
+                        <img src="./img/only-icon.svg" alt="" className="creator-hero__social-icon" />
                         Onlyfans
                     </div>
                 </div>

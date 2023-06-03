@@ -12,12 +12,12 @@ const Artwork = () => {
             <BidPopUp active={modalActive } setActive={setModalActive}></BidPopUp>
 
             <div className="artwork-hero">
-                <img src="../img/artwork-hero-img.jpg" alt="" className="artwork-hero__img" />
+                <img src="./img/artwork-hero-img.jpg" alt="" className="artwork-hero__img" />
                 <div className="artwork-hero__bid">
                     <div className="artwork-hero__current">
                         <div className="artwork-hero__word">Current Bid:</div>
                         <div className="artwork-hero__price">
-                            <img src="../img/sold-icon.svg" alt="" className="artwork-hero__icon" />
+                            <img src="./img/sold-icon.svg" alt="" className="artwork-hero__icon" />
                             <div className="artwork-hero__numbers">1,5M</div>
                             <div className="artwork-hero__dollars">(1308.54$)</div>
                         </div>
@@ -74,241 +74,241 @@ const Artwork = () => {
                     <div className="activity__list">
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>
                         <div className="activity__item">
                             <div className="activity__bid-info">
-                                <img src="../img/activity-avatar.svg" alt="" className="activity__avatar" />
+                                <img src="./img/activity-avatar.svg" alt="" className="activity__avatar" />
                                 <div className="activity__bid-call">
                                     <div className="activity__bid-tag">Bid placed by 0x6FC0...14A4</div>
                                     <div className="activity__bid-date">May 19, 2021 at 2:27pm</div>
                                 </div>
                             </div>
                             <div className="activity__bid-price">
-                                <img src="../img/sold-icon.svg" alt="" className="activity__price-icon" />
+                                <img src="./img/sold-icon.svg" alt="" className="activity__price-icon" />
                                 <div className="activity__price">1,5M <span> (1308.54$)</span> </div>
                                 <button className="activity__share-button">
-                                    <img src="../img/activity-share-icon.svg" alt="" className="activity__share-icon" />
+                                    <img src="./img/activity-share-icon.svg" alt="" className="activity__share-icon" />
                                 </button>
                             </div>
                         </div>

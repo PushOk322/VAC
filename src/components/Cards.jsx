@@ -9,7 +9,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-1.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-1.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -37,7 +37,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-2.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-2.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -65,7 +65,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-3.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-3.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -93,7 +93,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-4.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-4.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -121,7 +121,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-5.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-5.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -149,7 +149,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-6.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-6.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -177,7 +177,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-7.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-7.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">
@@ -205,7 +205,7 @@ const Cards = () => {
                         <div className="cards__usertag">@username</div>
                     </div>
                 </div>
-                <img src="../img/card-img-8.jpg" alt="" className="cards__card-img" />
+                <img src="./img/card-img-8.jpg" alt="" className="cards__card-img" />
                 <div className="cards__title">WFH - art name</div>
                 <div className="cards__sold">
                     <div className="cards__words">

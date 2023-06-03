@@ -32,12 +32,12 @@ const Profile = () => {
                         <div className="profile-search__usertag">@username</div>
                         <div className="profile-search__balance">
                             Balance:
-                            <img src="../img/sold-icon.svg" alt="" className="profile-search__balance-icon" />
+                            <img src="./img/sold-icon.svg" alt="" className="profile-search__balance-icon" />
                             <span>1,5M</span>
                         </div>
                     </div>
                 </div>
-                <img src="../img/filter-arrow.svg" alt="" className="profile-search__arrow" />
+                <img src="./img/filter-arrow.svg" alt="" className="profile-search__arrow" />
             </div>
 
         );
@@ -47,9 +47,9 @@ const Profile = () => {
     return (
         <>
             <div className="profile-search">
-                <img src="../img/search-logo.svg" alt="" className="profile-search__logo" />
+                <img src="./img/search-logo.svg" alt="" className="profile-search__logo" />
                 <form action="#" className="profile-search__bar">
-                    <img src="../img/search-icon.svg" alt="" className="profile-search__icon" />
+                    <img src="./img/search-icon.svg" alt="" className="profile-search__icon" />
                     <input type="text" className="profile-search__input" placeholder="Search for ..." />
                 </form>
 
@@ -93,19 +93,19 @@ const Profile = () => {
                 </div>
                 <div className="profile-hero__socials">
                     <div className="profile-hero__social">
-                        <img src="../img/twitch-icon.svg" alt="" className="profile-hero__social-icon" />
+                        <img src="./img/twitch-icon.svg" alt="" className="profile-hero__social-icon" />
                         Twitch
                     </div>
                     <div className="profile-hero__social">
-                        <img src="../img/insta-icon.svg" alt="" className="profile-hero__social-icon" />
+                        <img src="./img/insta-icon.svg" alt="" className="profile-hero__social-icon" />
                         Instagram
                     </div>
                     <div className="profile-hero__social">
-                        <img src="../img/twitter-icon.svg" alt="" className="profile-hero__social-icon" />
+                        <img src="./img/twitter-icon.svg" alt="" className="profile-hero__social-icon" />
                         Twitter
                     </div>
                     <div className="profile-hero__social">
-                        <img src="../img/only-icon.svg" alt="" className="profile-hero__social-icon" />
+                        <img src="./img/only-icon.svg" alt="" className="profile-hero__social-icon" />
                         Onlyfans
                     </div>
                 </div>
