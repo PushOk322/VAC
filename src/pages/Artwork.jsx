@@ -39,14 +39,15 @@ const Artwork = () => {
 
             <div className="activity">
                 <div className="activity__user">
-                    <Link to="/creator"></Link>
-                    <div className="activity__user-box">
-                        <img src="./img/user-avatar.svg" className="activity__hero-avatar"></img>
-                        <div className="activity__user-container">
-                            <div className="activity__username">User Name</div>
-                            <div className="activity__usertag">@username</div>
+                    <Link to="/creator">
+                        <div className="activity__user-box">
+                            <img src="./img/user-avatar.svg" className="activity__hero-avatar"></img>
+                            <div className="activity__user-container">
+                                <div className="activity__username">User Name</div>
+                                <div className="activity__usertag">@username</div>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                     <div className="activity__title">
                         WFH - art name
                     </div>
