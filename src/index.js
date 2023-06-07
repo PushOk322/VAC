@@ -6,13 +6,13 @@ import App from "./App.jsx";
 import "./styles/style.scss"
 
 
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>
+    </HashRouter>
 );

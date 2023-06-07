@@ -60,13 +60,13 @@ const Artwork = () => {
                         The iconic meme that became a viral Internet sensation and an indispensable part of the gachimuchi music genre. This was taken when I was very young and in my full "performance" attire. That part of me now "lives" on platforms like Twitch, YouTube, and Bilibili (B 站). The iconic meme that became a viral Internet sensation and an indispensable part of the gachimuchi music genre. This was taken when I was very young and in my full "performance" attire. That part of me now "lives" on platforms like Twitch, YouTube, and Bilibili (B 站).
                     </div>
                     <div className="activity__buttons">
-                        <button className="activity__button">
+                        <button className="activity__button" aria-label="external link button">
                             <img src="./img/external-link.svg" alt="" className="activity__button-icon" />
                         </button>
-                        <button className="activity__button">
+                        <button className="activity__button" aria-label="share button">
                             <img src="./img/share.svg" alt="" className="activity__button-icon" />
                         </button>
-                        <button className="activity__button">
+                        <button className="activity__button" aria-label="options button">
                             <img src="./img/options.svg" alt="" className="activity__button-icon" />
                         </button>
                     </div>

@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 
 const Main = () => {
     return (
-        
+
         <>
             <SearchBar></SearchBar>
             <div className="main">
                 <div className="main-hero">
                     <div className="main-hero__user">
-                        <img src="./img/user-avatar.svg" className="main-hero__avatar"></img>
+                        <img src="./img/user-avatar.svg" className="main-hero__avatar" alt="user avatar"></img>
                         <div className="main-hero__user-container">
                             <div className="main-hero__username">User Name</div>
                             <div className="main-hero__usertag">@username</div>
@@ -28,7 +28,7 @@ const Main = () => {
                     </div>
                     <div className="main-hero__options">
                         <div className="main-hero__sold">
-                            <div className="main-hero__sold-word">Sold for:</div>
+                            <div className="main-hero__sold-word">Sold htmlFor:</div>
                             <img src="./img/sold-icon.svg" alt="" className="main-hero__sold-icon" />
                             <div className="main-hero__price">1,5M</div>
                         </div>
@@ -36,13 +36,13 @@ const Main = () => {
                             <Link to="/artwork">
                                 <button className="main-hero__view">View</button>
                             </Link>
-                            <button className="main-hero__button">
+                            <button className="main-hero__button" aria-label="external link button">
                                 <img src="./img/external-link.svg" alt="" className="main-hero__button-icon" />
                             </button>
-                            <button className="main-hero__button">
+                            <button className="main-hero__button" aria-label="share button">
                                 <img src="./img/share.svg" alt="" className="main-hero__button-icon" />
                             </button>
-                            <button className="main-hero__button">
+                            <button className="main-hero__button" aria-label="options button">
                                 <img src="./img/options.svg" alt="" className="main-hero__button-icon" />
                             </button>
                         </div>

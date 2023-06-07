@@ -32,13 +32,13 @@ const Creator = () => {
                         </div>
                         <div className="creator-hero__follow-button">Follow</div>
                         <div className="creator-hero__buttons">
-                            <button className="creator-hero__button">
+                            <button className="creator-hero__button" aria-label="external link button">
                                 <img src="./img/external-link.svg" alt="" className="creator-hero__button-icon" />
                             </button>
-                            <button className="creator-hero__button">
+                            <button className="creator-hero__button" aria-label="share button">
                                 <img src="./img/share.svg" alt="" className="creator-hero__button-icon" />
                             </button>
-                            <button className="creator-hero__button">
+                            <button className="creator-hero__button" aria-label="options button">
                                 <img src="./img/options.svg" alt="" className="creator-hero__button-icon" />
                             </button>
                         </div>

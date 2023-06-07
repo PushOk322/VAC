@@ -28,7 +28,8 @@ export default () => {
         >
             <SwiperSlide className='main-slider__slide'>
                 <picture >
-                    <img src="./img/main-slider-img-1.jpg" alt="slider-1" className="main-slider__img" />
+                    <source type='image/webp' srcSet='./img/main-slider-img-1.webp'/>
+                    <img src="img/main-slider-img-1.jpg" alt="slider-1" className="main-slider__img" />
                 </picture>
             </SwiperSlide>
             <SwiperSlide className='main-slider__slide'><img src="./img/main-slider-img-2.jpg" alt="" className="main-slider__img" /></SwiperSlide>

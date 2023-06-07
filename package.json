@@ -1,9 +1,12 @@
 {
   "name": "taste-nft",
   "version": "1.0.0",
+  "homepage": "https://PushOk322.github.io/react-gh-pages",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "start": "cross-env NODE_ENV=development webpack serve --mode development"
@@ -29,6 +32,7 @@
     "css-minimizer-webpack-plugin": "^5.0.0",
     "file-loader": "^6.2.0",
     "filemanager-webpack-plugin": "^8.0.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
     "image-minimizer-webpack-plugin": "^3.8.2",
     "image-webpack-loader": "^8.1.0",

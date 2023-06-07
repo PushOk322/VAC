@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const SearchBar = () => {
     return (
         <div className="search">
-            <Link to="/">
+            <Link to="/" aria-label="To main page">
             <picture>
                 <img src="./img/search-logo.svg" alt="" className="search__logo" />
                 </picture>

@@ -3,7 +3,7 @@ const Cards = () => {
         <div className="cards">
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -31,7 +31,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -59,7 +59,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -87,7 +87,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -115,7 +115,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -143,7 +143,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -171,7 +171,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>
@@ -199,7 +199,7 @@ const Cards = () => {
             </div>
             <div className="cards__card">
                 <div className="cards__user-container">
-                    <img src="./img/user-avatar.svg" className="cards__avatar"></img>
+                    <img src="./img/user-avatar.svg" className="cards__avatar" alt="cards-avatar"></img>
                     <div className="cards__user-info">
                         <div className="cards__username">User Name</div>
                         <div className="cards__usertag">@username</div>

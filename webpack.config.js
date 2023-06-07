@@ -16,12 +16,8 @@ const optimization = () => {
         splitChunks: {
             chunks: 'all'
         },
-
-    }
-
-    if (isProd) {
-        config.minimize = true;
-        config.minimizer = [
+        minimize : true,
+        minimizer : [
             new CssMinimizerPlugin(),
             new TerserPlugin(),
             new ImageMinimizerPlugin({
