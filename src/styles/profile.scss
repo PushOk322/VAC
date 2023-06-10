@@ -640,6 +640,7 @@
         line-height: 19px;
         color: #FFFFFF;
         background: transparent;
+        padding: 0 0 0 5px;
     }
 
     &__dollars {
@@ -822,6 +823,9 @@
         height: 120px;
         background: #1D2228;
         border-radius: 8px;
+        font-family: 'Raleway-500';
+        color:#FFFFFF;
+        padding: 2px 0 0 5px ;
     }
 
     &__file-input{
@@ -894,6 +898,8 @@
         height: 40px;
         background: #1D2228;
         border-radius: 8px;
+        font-family: 'Raleway-500';
+        color: #FFFFFF;
     }
 
     &__save-button {
@@ -909,4 +915,204 @@
         box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
         border-radius: 12px;
     }
+}
+
+
+.balance{
+    position: absolute;
+    top: 80px;
+    width: 653px;
+    height: 0px;
+    position: absolute;
+    background: #30363D;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 32px;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+
+    &.active {
+        height: auto;
+        background: #30363D;
+        box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 32px;
+        display: flex;
+        flex-direction: column;
+        transition: 0, 2s;
+        visibility: visible;
+        opacity: 1;
+        overflow: hidden;
+    }
+
+    &__container {
+        transition: 0.3s;
+        height: 0;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    &__container.active {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(29, 34, 40, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        overflow: hidden;
+        transition: 0.3s;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &__cross {
+        top: 51px;
+        right: 24px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+
+    &__cross:hover {
+        cursor: pointer;
+    }
+
+    &__cross::before,
+    &__cross::after {
+        content: "";
+        position: absolute;
+        background-color: white;
+    }
+
+    &__cross::before {
+        width: 3px;
+        height: 100%;
+        right: 9px;
+        top: 0px;
+        transform: rotate(45deg);
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    &__cross::after {
+        width: 3px;
+        height: 100%;
+        top: 0px;
+        left: 7px;
+        transform: rotate(-45deg);
+        border-radius: 4px;
+        transition: 0.2s;
+    }
+
+    &__title {
+        margin: 45px 0 8px 0;
+        font-family: 'Raleway-700';
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__content{
+        height: 0;
+        visibility: hidden;
+        &.active{
+            height: auto;
+            visibility: visible;
+            margin-bottom: 32px;
+        }
+
+    }
+
+    &__withdraw-box {
+        margin: 25px 0 6px 24px;
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+        
+    }
+
+    &__withdraw {
+        width: 294px;
+        height: 101px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 0 0 0 14px;
+        background: #1D2228;
+        box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+    }
+
+    &__quantity {
+        margin: 16px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-family: 'Raleway-700';
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+
+    &__img {
+        margin: 6px 0 0 0;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__button {
+        font-family: 'Raleway-400';
+        font-size: 14px;
+        line-height: 16px;
+        color: #FF5693;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 13px;
+    }
+
+    &__back-button {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 47px;
+        left: 32px;
+        background: transparent;
+    }
+
+    &__back-arrow {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__content-box {
+
+    }
+
+    &__sold-container {
+        margin: 0px 0px 0 0;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    &__sold-icon {
+        width: 19px;
+        height: 19px;
+    }
+
+    &__price {
+        font-family: 'Raleway-600';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
 }

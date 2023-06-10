@@ -6,16 +6,157 @@ const Profile = () => {
     const [popTimeActive, setPopTimeActive] = useState(false);
     const [popEditActive, setPopEditActive] = useState(false);
 
-    const [createActive, setCreateActive] = useState(true);
+    const [createActive, setCreateActive] = useState(false);
 
+    const [swap, setSwap] = useState(0);
+
+    const PopBalance = ({ active, setActive }) => {
+        return (
+            <>
+                <div className={active ? "balance__container active" : "balance__container"}>
+                    <div className={active ? "balance active" : "balance"}>
+
+                        <div className="balance__cross" onClick={() => setActive(false)}></div>
+
+                        <div className={active === 1 ? "balance__content active" : "balance__content"}>
+                            <div className="balance__title">Balance settings</div>
+
+                            <div className="balance__withdraw-box">
+                                <div className="balance__withdraw">
+                                    <div className="balance__quantity">
+                                        <img src="./img/sold-icon.svg" alt="" className="balance__img" />
+                                        1.5M
+                                    </div>
+                                    <div className="balance__button" onClick={() => { setActive(2) }}>Withdraw</div>
+                                </div>
+
+                                <div className="balance__withdraw">
+                                    <div className="balance__quantity">
+                                        <img src="./img/sold-icon.svg" alt="" className="balance__img" />
+                                        1.5M
+                                    </div>
+                                    <div className="balance__buttons">
+                                        <div className="balance__button" onClick={() => { setActive(3) }}>Swap to TASTE</div>
+                                        <div className="balance__button" onClick={() => { setActive(4) }}>Deposit</div>
+                                        <div className="balance__button" onClick={() => { setActive(5) }}>Withdraw</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className={active === 2 ? "balance__content active" : "balance__content"}>
+                            <div className="balance__title">Swap to  TASTE</div>
+
+                            <button className="balance__back-button" onClick={() => setActive(1)}><img src="./img/balance-back-arrow.svg" alt="" className="balance__back-arrow" /></button>
+
+
+                            <div className="balance__content-box">
+                                <div className="place-bid__min">You will get</div>
+                                <form action="#" className="place-bid__form">
+                                    <div className="place-bid__input-container">
+                                        <input type="number" className="place-bid__input" placeholder="00000000" />
+                                        <div className="place-bid__input-placeholder">TASTE</div>
+                                    </div>
+                                    <div className="place-bid__dollars">(1308.54$)</div>
+                                </form>
+                                <button className="place-bid__button" onClick={() => setActive(1)}>Swap</button>
+                            </div>
+
+                        </div>
+
+                        <div className={active === 3 ? "balance__content active" : "balance__content"}>
+                            <div className="balance__title">Deposit to BNB</div>
+
+                            <button className="balance__back-button" onClick={() => setActive(1)}><img src="./img/balance-back-arrow.svg" alt="" className="balance__back-arrow" /></button>
+
+
+                            <div className="balance__content-box">
+                                <div className="place-bid__min">You will get</div>
+                                <form action="#" className="place-bid__form">
+                                    <div className="place-bid__input-container">
+                                        <input type="number" className="place-bid__input" placeholder="00000000" />
+                                        <div className="place-bid__input-placeholder">TASTE</div>
+                                    </div>
+                                    <div className="balance__sold-container">
+                                        <img src="./img/card-sold-icon.svg" alt="" className="balance__sold-icon" />
+                                        <div className="balance__price">1,5M</div>
+                                    </div>
+                                    <div className="place-bid__dollars">(1308.54$)</div>
+                                </form>
+                                <button className="place-bid__button" onClick={() => setActive(1)}>Swap</button>
+                            </div>
+
+                        </div>
+
+
+                        <div className={active === 4 ? "balance__content active" : "balance__content"}>
+                            <div className="balance__title">Swap to  TASTE</div>
+
+                            <button className="balance__back-button" onClick={() => setActive(1)}><img src="./img/balance-back-arrow.svg" alt="" className="balance__back-arrow" /></button>
+
+
+                            <div className="balance__content-box">
+                                <div className="place-bid__min">Withdraw</div>
+                                <form action="#" className="place-bid__form">
+                                    <div className="place-bid__input-container">
+                                        <input type="number" className="place-bid__input" placeholder="00000000" />
+                                        <div className="place-bid__input-placeholder">TASTE</div>
+                                    </div>
+                                    <div className="balance__sold-container">
+                                        <img src="./img/card-sold-icon.svg" alt="" className="balance__sold-icon" />
+                                        <div className="balance__price">1,5M</div>
+                                    </div>
+                                    <div className="place-bid__dollars">(1308.54$)</div>
+                                </form>
+                                <button className="place-bid__button" onClick={() => setActive(1)}>Swap</button>
+                            </div>
+
+                        </div>
+
+
+                        <div className={active === 5 ? "balance__content active" : "balance__content"}>
+                            <div className="balance__title">Swap to BNB</div>
+
+                            <button className="balance__back-button" onClick={() => setActive(1)}><img src="./img/balance-back-arrow.svg" alt="" className="balance__back-arrow" /></button>
+
+
+                            <div className="balance__content-box">
+                                <div className="place-bid__min">You will get</div>
+                                <form action="#" className="place-bid__form">
+                                    <div className="place-bid__input-container">
+                                        <input type="number" className="place-bid__input" placeholder="00000000" />
+                                        <div className="place-bid__input-placeholder">TASTE</div>
+                                    </div>
+                                    <div className="balance__sold-container">
+                                        <img src="./img/card-sold-icon.svg" alt="" className="balance__sold-icon" />
+                                        <div className="balance__price">1,5M</div>
+                                    </div>
+                                    <div className="place-bid__dollars">(1308.54$)</div>
+                                </form>
+                                <button className="place-bid__button" onClick={() => setActive(1)}>Swap</button>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </>
+        );
+    }
 
     const PopCreate = ({ active, setActive }) => {
         const [steps, setSteps] = useState(1);
         const [radioActive, setRadioActive] = useState(true);
         const handleNextStep = () => {
-            if (steps > 2) {
+            if (steps === 3) {
+                setActive(false);
+            }else if (steps > 2) {
                 setSteps(1);
-            } else {
+            }else {
                 setSteps(steps + 1);
                 console.log(steps);
             }
@@ -125,10 +266,10 @@ const Profile = () => {
                                 <div className="pop-time__min">Selling will end</div>
                                 <form action="#" className="pop-time__form">
                                     <div className="pop-time__input-container">
-                                        <input type="number" className="pop-time__input" placeholder="22.02.2020" />
+                                        <input type="text" className="pop-time__input" placeholder="22.02.2020" />
                                     </div>
                                     <div className="pop-time__input-container time">
-                                        <input type="number" className="pop-time__input" placeholder="23:45" />
+                                        <input type="text" className="pop-time__input" placeholder="23:45" />
                                     </div>
                                     <div className="pop-time__dollars">05h 02m 41s</div>
                                     <button className="pop-time__delete">
@@ -153,9 +294,6 @@ const Profile = () => {
             </>
         );
     };
-
-
-
 
     const PopEdit = ({ active, setActive }) => {
         return (
@@ -313,7 +451,7 @@ const Profile = () => {
                 <div className={active ? "profile-drop active" : "profile-drop"}>
                     <div className="profile-drop__adress">Address: 0c0xcx1cx606g4516x51g1...</div>
                     <button className="profile-drop__link" onClick={() => { setPopEditActive(true); }}>My profile</button>
-                    <button className="profile-drop__link">Balance settings</button>
+                    <button className="profile-drop__link" onClick={() => { setSwap(1) }}>Balance settings</button>
                     <button className="profile-drop__logout">Log out</button>
                 </div>
                 <img src="./img/user-avatar.svg" className="profile-search__avatar"></img>
@@ -349,6 +487,8 @@ const Profile = () => {
                 <button onClick={() => setCreateActive(true)} className="profile-search__button" >+ Add artwork</button>
                 <ProfileDrop active={dropActive} setActive={setDropActive}></ProfileDrop>
             </div>
+
+            <PopBalance active={swap} setActive={setSwap}></PopBalance>
 
             <PopCreate active={createActive} setActive={setCreateActive}></PopCreate>
 

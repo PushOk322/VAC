@@ -1,16 +1,16 @@
 @import 'fonts.scss';
 @import 'reset.scss';
+
 @import 'main.scss';
 @import 'artwork.scss';
 @import 'creator.scss';
 @import 'profile.scss';
-@import 'addartwork.scss';
-
+@import 'search-page.scss';
 
 @import 'search.scss';
 @import 'cards.scss';
 @import 'featured.scss';
-
+@import 'addartwork.scss';
 html {
     overflow-x: hidden;
         min-width: 0;
@@ -43,4 +43,9 @@ body._lock {
     overflow-x: hidden;
     background: #1D2228;
     min-width: 0;
+}
+
+input{
+    font-family: 'Raleway-500';
+        color: #FFFFFF;
 }
