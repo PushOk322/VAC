@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
 
-import SearchBar from "../components/SearchBar.jsx";
-import Cards from "../components/Cards.jsx";
-import BidPopUp from "../components/BidPopUp.jsx";
-
 const Creator = () => {
     const [modalActive, setModalActive] = useState(true);
     return (
         <>
-            <SearchBar></SearchBar>
 
             {/* <BidPopUp active={modalActive} setActive={setModalActive}></BidPopUp> */}
 
@@ -73,7 +68,6 @@ const Creator = () => {
                     <div className="creator-cards__pick active">Created</div>
                     <div className="creator-cards__pick">Collected</div>
                 </div>
-                <Cards></Cards>
             </div>
         </>
     );

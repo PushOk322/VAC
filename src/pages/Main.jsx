@@ -1,7 +1,6 @@
-import SearchBar from "../components/SearchBar.jsx";
+
 import MainSwiper from "../components/Swiper.jsx";
 import Featured from "../components/Featured.jsx";
-import Cards from "../components/Cards.jsx";
 
 import { Link } from 'react-router-dom';
 
@@ -9,7 +8,6 @@ const Main = () => {
     return (
 
         <>
-            <SearchBar></SearchBar>
             <div className="main">
                 <div className="main-hero">
                     <div className="main-hero__user">
@@ -57,7 +55,6 @@ const Main = () => {
                 <div className="main-filters__filter">Auctions<img src="./img/filter-arrow.svg" alt="" className="main-filters__arrow" /></div>
             </div>
 
-            <Cards></Cards>
 
             <div className="featured__title">Featured creators</div>
             <Featured></Featured>

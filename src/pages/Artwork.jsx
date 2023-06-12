@@ -1,14 +1,11 @@
 import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import SearchBar from "../components/SearchBar.jsx";
-import Cards from "../components/Cards.jsx";
 import BidPopUp from "../components/BidPopUp.jsx";
 const Artwork = () => {
     const [modalActive, setModalActive] = useState(true);
     return (
         <>
-            <SearchBar></SearchBar>
 
             <BidPopUp active={modalActive } setActive={setModalActive}></BidPopUp>
 
@@ -324,7 +321,6 @@ const Artwork = () => {
                 <div className="artwork-cards__title">
                     Feature works
                 </div>
-                <Cards></Cards>
             </div>
         </>
     );
