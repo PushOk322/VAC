@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import BidPopUp from "../components/BidPopUp.jsx";
@@ -7,7 +7,7 @@ const Artwork = () => {
     return (
         <>
 
-            <BidPopUp active={modalActive } setActive={setModalActive}></BidPopUp>
+            <BidPopUp active={modalActive} setActive={setModalActive}></BidPopUp>
 
             <div className="artwork-hero">
                 <img src="./img/artwork-hero-img.jpg" alt="" className="artwork-hero__img" />

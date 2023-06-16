@@ -13,7 +13,8 @@
 @import 'addartwork.scss';
 html {
     overflow-x: hidden;
-        min-width: 0;
+    min-width: 0;
+
 }
 
 html._lock {
@@ -26,8 +27,7 @@ body {
     align-items: center;
     width: 100%;
     overflow-x: hidden;
-    background: #1D2228;
-        min-width: 0;
+    min-width: 0;
 }
 
 body._lock {
@@ -41,11 +41,10 @@ body._lock {
     align-items: center;
     width: 100%;
     overflow-x: hidden;
-    background: #1D2228;
+
     min-width: 0;
 }
 
-input{
-    font-family: 'Raleway-500';
-        color: #FFFFFF;
+.height{
+    height: 10000px;
 }
