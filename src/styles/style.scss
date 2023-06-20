@@ -2,15 +2,13 @@
 @import 'reset.scss';
 
 @import 'main.scss';
-@import 'artwork.scss';
-@import 'creator.scss';
-@import 'profile.scss';
-@import 'search-page.scss';
+@import 'calculator-page.scss';
+@import 'video-page.scss';
 
 @import 'search.scss';
-@import 'cards.scss';
-@import 'featured.scss';
-@import 'addartwork.scss';
+@import 'calculator.scss';
+@import 'interesting.scss';
+@import 'footer.scss';
 html {
     overflow-x: hidden;
     min-width: 0;

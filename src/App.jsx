@@ -1,5 +1,6 @@
 import Main from './pages/Main.jsx';
-
+import CalculatorPage from './pages/Calculator-page.jsx';
+import VideosPage from './pages/Videos-page.jsx';
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
                 <Route path="/search" element={<Profile />} />
                 <Route path="*" element={<Error />} />
             </Routes> */}
-            <Main></Main>
+            <VideosPage></VideosPage>
         </>
     );
 };

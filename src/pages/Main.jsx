@@ -1,7 +1,9 @@
 import Search from "../components/Search.jsx";
+import Footer from "../components/Footer.jsx"
 import MainSwiper from "../components/Swiper.jsx";
 import ClientSay from "../components/ClientSay.jsx";
-
+import Calculator from "../components/Calculator.jsx";
+import Interesting from "../components/Interesting.jsx";
 import { Link } from 'react-router-dom';
 
 const Main = () => {
@@ -195,7 +197,17 @@ const Main = () => {
                 <ClientSay></ClientSay>
             </div>
 
-            <div className="height"></div>
+            <div className="main-calculator">
+                <Calculator ></Calculator>
+            </div>
+
+            <div className="main-interesting">
+                <Interesting></Interesting>
+            </div>
+
+            <div className="main-footer">
+                <Footer></Footer>
+            </div>
         </>
     );
 }

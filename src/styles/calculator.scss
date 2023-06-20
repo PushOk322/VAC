@@ -1,0 +1,858 @@
+.main-calculator {
+    margin: 218px 0 0 0;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.calculator-page-calculator {
+    margin: 40px 0 0 0;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    &__upper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__title {
+        font-family: 'Gilroy-700';
+        font-size: 45px;
+        line-height: 140.5%;
+        color: #41456B;
+        max-width: 500px;
+    }
+
+    &__text {
+        margin: 12px 0 0 0;
+        font-family: 'Gilroy-400';
+        font-size: 16px;
+        line-height: 180%;
+        letter-spacing: 0.02em;
+        color: #606276;
+        max-width: 599px;
+    }
+
+    &__main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__left {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        height: 478px;
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0 0 60px;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    &__nav-button {
+        margin: 1px 0 0 0;
+        padding: 16px 32px 18px 32px;
+        background: transparent;
+        border: 1px solid #7481FF;
+        font-family: 'Gilroy-700';
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #7481FF;
+        cursor: pointer;
+
+        &.active {
+            color: #FFFFFF;
+            background: #7481FF;
+        }
+
+        &.first {
+            border-radius: 2px 0px 0px 2px;
+        }
+
+        &.last {
+            border-radius: 0px 2px 2px 0px;
+        }
+    }
+
+    &__content {
+        height: 0;
+        visibility: hidden;
+
+        &.active {
+            margin: 56px 0 0 0;
+            height: 196px;
+            visibility: visible;
+            display: flex;
+            flex-direction: column;
+            gap: 65px;
+        }
+    }
+
+    &__loan {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        max-width: 680px;
+    }
+
+    &__upper-scrollbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__scroll-name {
+        font-family: 'Gilroy-600';
+        font-size: 20px;
+        line-height: 25px;
+        color: #41456B;
+    }
+
+    &__scroll-value {
+        font-family: 'Gilroy-700';
+        font-size: 25px;
+        text-align: right;
+        letter-spacing: 0.02em;
+        color: #41456B;
+
+        span {
+            font-family: 'Gilroy-700';
+            font-size: 25px;
+            line-height: 140%;
+            text-align: right;
+            letter-spacing: 0.02em;
+            color: #41456B;
+        }
+
+        .calculator__value-type {
+            line-height: 14px;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            font-size: 16px;
+            color: #41456B;
+        }
+
+    }
+
+
+    &__scrollbar {
+
+        width: 100%;
+        height: 8px;
+        -webkit-appearance: none;
+        appearance: none;
+        background: #D7D7D7;
+        border-radius: 2px;
+        outline: none;
+        margin-top: 4px;
+    }
+
+    &__scrollbar::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color: #7481FF;
+        cursor: pointer;
+        border-radius: 25%;
+        border: 2px solid #FFFFFF;
+    }
+
+    &__scrollbar::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        background-color: #7481FF;
+        cursor: pointer;
+        border-radius: 25%;
+        border: 2px solid #FFFFFF;
+    }
+
+    &__scrollbar::-moz-range-track {
+        background-color: #7481FF;
+        border-radius: 5px;
+    }
+
+    &__right {
+        height: 478px;
+        width: 100%;
+        max-width: 370px;
+        border-radius: 5px;
+        padding: 62px 0 0 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    &__right-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__small-blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__big-block {
+        margin: 0 0 11px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    &__heading {
+        font-family: 'Gilroy-400';
+        font-size: 16px;
+        line-height: 180%;
+        letter-spacing: 0.02em;
+        color: #606276;
+    }
+
+    &__big-weekly-price {
+        font-family: 'Gilroy-700';
+        font-size: 45px;
+        line-height: 140.5%;
+        color: #7481FF;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    &__weekly-price {
+        font-family: 'Gilroy-700';
+        font-size: 25px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #41456B;
+    }
+
+    &__button {
+        height: 45px;
+        width: 250px;
+        border-radius: 2px;
+        margin: 20px 0 0px 0;
+        background: #7481FF;
+        border-radius: 2px;
+        font-family: 'Gilroy-700';
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 2px 0 0 0;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .main-calculator {
+        margin: 159px 0 0 0;
+        width: 100%;
+        max-width: 720px;
+        position: relative;
+    }
+
+    .calculator-page-calculator {
+        margin: 40px 0 0 0;
+        width: 100%;
+        max-width: 720px;
+        position: relative;
+    }
+
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        &__upper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        &__title {
+            font-family: 'Gilroy-700';
+            font-size: 45px;
+            line-height: 140.5%;
+            color: #41456B;
+            max-width: 360px;
+        }
+
+        &__text {
+            margin: 14px 0 0 0;
+            font-family: 'Gilroy-400';
+            font-size: 16px;
+            line-height: 181%;
+            letter-spacing: 0.02em;
+            color: #606276;
+            max-width: 299px;
+        }
+
+        &__main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 25px;
+            background: #FFFFFF;
+            box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        &__left {
+            background: #FFFFFF;
+            box-shadow: none;
+            border-radius: 5px;
+            height: auto;
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            padding: 40px 0 0 40px;
+        }
+
+        &__nav {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        &__nav-button {
+            margin: 1px 0 0 0;
+            padding: 16px 32px 18px 32px;
+            background: transparent;
+            border: 1px solid #7481FF;
+            font-family: 'Gilroy-700';
+            font-size: 16px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #7481FF;
+            cursor: pointer;
+
+            &.active {
+                color: #FFFFFF;
+                background: #7481FF;
+            }
+
+            &.first {
+                border-radius: 2px 0px 0px 2px;
+            }
+
+            &.last {
+                border-radius: 0px 2px 2px 0px;
+            }
+        }
+
+        &__content {
+            height: 0;
+            visibility: hidden;
+
+            &.active {
+                margin: 36px 0 0 0;
+                height: 196px;
+                visibility: visible;
+                display: flex;
+                flex-direction: column;
+                gap: 45px;
+            }
+        }
+
+        &__loan {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: 100%;
+            max-width: 640px;
+        }
+
+        &__upper-scrollbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        &__scroll-name {
+            font-family: 'Gilroy-600';
+            font-size: 20px;
+            line-height: 25px;
+            color: #41456B;
+        }
+
+        &__scroll-value {
+            font-family: 'Gilroy-700';
+            font-size: 25px;
+            text-align: right;
+            letter-spacing: 0.02em;
+            color: #41456B;
+
+            span {
+                font-family: 'Gilroy-700';
+                font-size: 25px;
+                line-height: 140%;
+                text-align: right;
+                letter-spacing: 0.02em;
+                color: #41456B;
+            }
+
+            .calculator__value-type {
+                line-height: 14px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                font-size: 16px;
+                color: #41456B;
+            }
+
+        }
+
+
+        &__scrollbar {
+
+            width: 100%;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #D7D7D7;
+            border-radius: 2px;
+            outline: none;
+            margin-top: 4px;
+        }
+
+        &__scrollbar::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background-color: #7481FF;
+            cursor: pointer;
+            border-radius: 25%;
+            border: 2px solid #FFFFFF;
+        }
+
+        &__scrollbar::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background-color: #7481FF;
+            cursor: pointer;
+            border-radius: 25%;
+            border: 2px solid #FFFFFF;
+        }
+
+        &__scrollbar::-moz-range-track {
+            background-color: #7481FF;
+            border-radius: 5px;
+        }
+
+        &__right {
+            height: auto;
+            width: 100%;
+            max-width: 720px;
+            border-radius: 5px;
+            padding: 0px 0 40px 40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            background: #FFFFFF;
+            box-shadow: none;
+        }
+
+        &__right-content {
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 45px 0 0;
+        }
+
+        &__small-blocks {
+            display: flex;
+            flex-direction: row;
+            gap: 42px;
+        }
+
+        &__big-block {
+            margin: 0 0 11px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        &__heading {
+            width: fit-content;
+            font-family: 'Gilroy-400';
+            font-size: 16px;
+            line-height: 180%;
+            letter-spacing: 0.02em;
+            color: #606276;
+        }
+
+        &__big-weekly-price {
+            width: fit-content;
+            font-family: 'Gilroy-700';
+            font-size: 45px;
+            line-height: 140.5%;
+            color: #7481FF;
+        }
+
+        &__block {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        &__weekly-price {
+            width: fit-content;
+            font-family: 'Gilroy-700';
+            font-size: 25px;
+            line-height: 140%;
+            letter-spacing: 0.02em;
+            color: #41456B;
+        }
+
+        &__button {
+            height: 45px;
+            width: 250px;
+            border-radius: 2px;
+            margin: 20px 0 0px 0;
+            background: #7481FF;
+            border-radius: 2px;
+            font-family: 'Gilroy-700';
+            font-size: 16px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 0px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .main-calculator {
+        margin: 79px 0 0 0;
+        width: 100%;
+        max-width: 320px;
+        position: relative;
+    }
+
+    .calculator-page-calculator {
+        margin: 29px 0 0 0;
+        width: 100%;
+        max-width: 320px;
+        position: relative;
+    }
+
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+
+        &__upper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+        }
+
+        &__title {
+            font-family: 'Gilroy-700';
+            font-size: 30px;
+            line-height: 140.5%;
+            color: #41456B;
+            max-width: 360px;
+        }
+
+        &__text {
+            margin: 12px 0 0 0;
+            font-family: 'Gilroy-400';
+            font-size: 16px;
+            line-height: 181%;
+            letter-spacing: 0.02em;
+            color: #606276;
+            max-width: 320px;
+        }
+
+        &__main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 44px;
+            background: #FFFFFF;
+            box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        &__left {
+            background: #FFFFFF;
+            box-shadow: none;
+            border-radius: 5px;
+            height: auto;
+            width: 100%;
+            max-width: 320px;
+            display: flex;
+            flex-direction: column;
+            padding: 15px 20px 0 20px;
+        }
+
+        &__nav {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        &__nav-button {
+            margin: 1px 0 0 0;
+            padding: 10px 17px 10px 18px;
+            background: transparent;
+            border: 1px solid #7481FF;
+            font-family: 'Gilroy-700';
+            font-size: 16px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #7481FF;
+            cursor: pointer;
+
+            &.active {
+                color: #FFFFFF;
+                background: #7481FF;
+            }
+
+            &.first {
+                border-radius: 2px 0px 0px 2px;
+            }
+
+            &.last {
+                border-radius: 0px 2px 2px 0px;
+            }
+        }
+
+        &__content {
+            height: 0;
+            visibility: hidden;
+
+            &.active {
+                margin: 41px 0 0 0;
+                height: 149px;
+                visibility: visible;
+                display: flex;
+                flex-direction: column;
+                gap: 27px;
+            }
+        }
+
+        &__loan {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 640px;
+        }
+
+        &__upper-scrollbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        &__scroll-name {
+            font-family: 'Gilroy-600';
+            font-size: 18px;
+            line-height: 25px;
+            color: #41456B;
+        }
+
+        &__scroll-value {
+            font-family: 'Gilroy-700';
+            font-size: 20px;
+            text-align: right;
+            letter-spacing: 0.02em;
+            color: #41456B;
+
+            span {
+                font-family: 'Gilroy-700';
+                font-size: 20px;
+                line-height: 140%;
+                text-align: right;
+                letter-spacing: 0.02em;
+                color: #41456B;
+            }
+
+            .calculator__value-type {
+                line-height: 14px;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #41456B;
+            }
+
+        }
+
+
+        &__scrollbar {
+
+            width: 100%;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #D7D7D7;
+            border-radius: 2px;
+            outline: none;
+            margin-top: 4px;
+        }
+
+        &__scrollbar::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background-color: #7481FF;
+            cursor: pointer;
+            border-radius: 25%;
+            border: 2px solid #FFFFFF;
+        }
+
+        &__scrollbar::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background-color: #7481FF;
+            cursor: pointer;
+            border-radius: 25%;
+            border: 2px solid #FFFFFF;
+        }
+
+        &__scrollbar::-moz-range-track {
+            background-color: #7481FF;
+            border-radius: 5px;
+        }
+
+        &__right {
+            height: auto;
+            width: 100%;
+            max-width: 720px;
+            border-radius: 5px;
+            padding: 0px 20px 20px 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            background: #FFFFFF;
+            box-shadow: none;
+        }
+
+        &__right-content {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            justify-content: flex-start;
+            width: 100%;
+            padding: 0 0px 0 0;
+        }
+
+        &__small-blocks {
+            padding: 0px 4px 0 0;
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            justify-content: space-between;
+        }
+
+        &__big-block {
+            margin: 0 0 11px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        &__heading {
+            width: fit-content;
+            font-family: 'Gilroy-400';
+            font-size: 16px;
+            line-height: 180%;
+            letter-spacing: 0.02em;
+            color: #606276;
+        }
+
+        &__big-weekly-price {
+            width: fit-content;
+            font-family: 'Gilroy-700';
+            font-size: 35px;
+            line-height: 137%;
+            color: #7481FF;
+        }
+
+        &__block {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        &__weekly-price {
+            width: fit-content;
+            font-family: 'Gilroy-700';
+            font-size: 20px;
+            line-height: 140%;
+            letter-spacing: 0.02em;
+            color: #41456B;
+        }
+
+        &__button {
+            height: 35px;
+            width: 280px;
+            border-radius: 2px;
+            margin: 31px 0 0px 0;
+            background: #7481FF;
+            border-radius: 2px;
+            font-family: 'Gilroy-700';
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 0px 0.5px 0 0;
+        }
+    }
+}
