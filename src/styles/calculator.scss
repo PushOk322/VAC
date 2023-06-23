@@ -12,6 +12,20 @@
     position: relative;
 }
 
+.about-calculator {
+    margin: 210px 0 0 0;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.loan-calculator {
+    margin: 220px 0 0 0;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
 .calculator {
     display: flex;
     flex-direction: column;
@@ -289,6 +303,21 @@
         max-width: 720px;
         position: relative;
     }
+
+    .about-calculator {
+        margin: 159px 0 1px 0;
+        width: 100%;
+        max-width: 720px;
+        position: relative;
+    }
+
+    .loan-calculator {
+        margin: 159px 0 1px 0;
+        width: 100%;
+        max-width: 720px;
+        position: relative;
+    }
+
 
     .calculator {
         display: flex;
@@ -575,6 +604,20 @@
 
     .calculator-page-calculator {
         margin: 29px 0 0 0;
+        width: 100%;
+        max-width: 320px;
+        position: relative;
+    }
+
+    .about-calculator {
+        margin: 79px 0 0 0;
+        width: 100%;
+        max-width: 320px;
+        position: relative;
+    }
+
+    .loan-calculator {
+        margin: 79px 0 0 0;
         width: 100%;
         max-width: 320px;
         position: relative;

@@ -10,8 +10,12 @@ const Footer = () => {
                     <div className="footer__content">
                         <div className="footer__block-first">
                             <div className="footer__terms-container">
-                                <div className="footer__terms-word">Terms</div>
-                                <div className="footer__terms-word">Privacy</div>
+                                <Link to="/terms">
+                                    <div className="footer__terms-word">Terms</div>
+                                </Link>
+                                <Link to="/conditions">
+                                    <div className="footer__terms-word">Privacy</div>
+                                </Link>
                             </div>
                             <div className="footer__socials">
                                 <img src="./img/footer-insta.svg" alt="instagram" className="footer__social" />

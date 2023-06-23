@@ -8,19 +8,19 @@ const Search = () => {
                 <div className="menu__content">
                     <div className={active === 1 ? "menu__links active" : "menu__links"}>
                         <button className="menu__link" onClick={() => { setBurgerActive(2); }}>Contact us</button>
-                        <Link to="/">
+                        <Link to="/about">
                             <button className="menu__link">About VAC</button>
                         </Link>
-                        <Link to="/">
+                        <Link to="/loan">
                             <button className="menu__link">Loan Rates</button>
                         </Link>
-                        <Link to="/">
+                        <Link to="/videos">
                             <button className="menu__link">Video</button>
                         </Link>
-                        <Link to="/">
+                        <Link to="/blog">
                             <button className="menu__link">Blog</button>
                         </Link>
-                        <Link to="/">
+                        <Link to="/calculator">
                             <button className="menu__link">Calculate</button>
                         </Link>
                     </div>
@@ -60,7 +60,9 @@ const Search = () => {
         <>
             <div className="search">
                 <div className="search__wrapper">
-                    <img src="./img/search-logo.svg" alt="" className="search__logo" />
+                    <Link to="/">
+                        <img src="./img/search-logo.svg" alt="" className="search__logo" />
+                    </Link>
                     <div className="search__buttons">
                         <button className="search__inventory-button">Inventory</button>
                         <button className="search__request-button">Request a car</button>
