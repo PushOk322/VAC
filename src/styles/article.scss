@@ -1,0 +1,480 @@
+.article-hero {
+    margin: 1px 0 0 0;
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+
+    &__img {}
+}
+
+.article-back {
+    position: absolute;
+    top: 321px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: var(--secondary-text, #606276);
+    font-size: 16px;
+    font-family: Gilroy-700;
+    line-height: 14.364px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+
+    &__arrow {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.article {
+    margin: -80px 0 0 0;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5px 5px 0px 0px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+
+    &__back {
+        position: absolute;
+        top: 120px;
+        left: -100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        color: var(--secondary-text, #606276);
+        font-size: 16px;
+        font-family: Gilroy-700;
+        line-height: 14.364px;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+    }
+
+    &__arrow {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__time {
+        margin: 1px 0 0 0;
+        color: var(--secondary-text, #606276);
+        font-size: 16px;
+        font-family: Gilroy-400;
+        line-height: 180%;
+        letter-spacing: 0.32px;
+    }
+
+    &__title {
+        margin: 0px 0 0 0;
+        color: var(--primary-content, #41456B);
+        font-size: 45px;
+        font-family: Gilroy-700;
+        line-height: 142.5%;
+        max-width: 640px;
+    }
+
+    &__text {
+        margin: 19px 0 0 0;
+        color: var(--text-color, #7C7A84);
+        font-size: 16px;
+        font-family: Gilroy-400;
+        line-height: 181.5%;
+        letter-spacing: 0.32px;
+        max-width: 880px;
+
+        &.second {
+            margin: 60px 0 0 0;
+        }
+    }
+
+
+
+    &__double-imgs {
+        margin: 20px 0 20px 0;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 430px;
+        height: 297px;
+    }
+
+    &__heading1 {
+        margin: 20px 0 0 0;
+        color: var(--primary-content, #41456B);
+        font-size: 25px;
+        font-family: Gilroy-700;
+        line-height: 140%;
+        letter-spacing: 0.5px;
+
+    }
+
+    &__text {}
+
+    &__big-img {
+        margin: 20px 0 0px 0;
+        width: 100%;
+        max-width: 880px;
+        height: 496px;
+    }
+
+    &__heading2 {
+        margin: 20px 0 -15px 0;
+        color: var(--primary-content, #41456B);
+        font-size: 20px;
+        font-family: Gilroy-700;
+        line-height: 140%;
+        letter-spacing: 0.5px;
+    }
+
+    &__very-big-img {
+        margin: 20px 0 0 0;
+        width: 100%;
+        max-width: 880px;
+        height: 496px;
+    }
+
+    &__img-description {
+        margin: 5px 0 -40px 0;
+        color: var(--text-color, #7C7A84);
+        font-size: 14px;
+        font-family: Gilroy-400;
+        line-height: 159%;
+    }
+}
+
+.article-might-like {}
+
+
+@media (max-width:1200px) {
+    .article-hero {
+        margin: 0;
+        width: 100%;
+        max-width: 768px;
+        height: 194px;
+
+
+        &__img {}
+    }
+
+    .article-back {
+        position: absolute;
+        top: 321px;
+        left: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        color: var(--secondary-text, #606276);
+        font-size: 16px;
+        font-family: Gilroy-700;
+        line-height: 14.364px;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+
+        &__arrow {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .article {
+        margin: -74px 0 0 0;
+        position: relative;
+        width: 100%;
+        max-width: 720px;
+        border-radius: 5px 5px 0px 0px;
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 61px;
+
+        &__back {
+            position: absolute;
+            top: 94px;
+            left: -0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+            color: var(--secondary-text, #606276);
+            font-size: 16px;
+            font-family: Gilroy-700;
+            line-height: 14.364px;
+            letter-spacing: 0.32px;
+            text-transform: uppercase;
+
+            span {
+                display: none;
+            }
+        }
+
+        &__arrow {
+            width: 24px;
+            height: 24px;
+        }
+
+        &__time {
+            margin: 1px 0 0 0;
+            color: var(--secondary-text, #606276);
+            font-size: 16px;
+            font-family: Gilroy-400;
+            line-height: 180%;
+            letter-spacing: 0.32px;
+        }
+
+        &__title {
+            margin: 0px 0 0 0;
+            color: var(--primary-content, #41456B);
+            font-size: 45px;
+            font-family: Gilroy-700;
+            line-height: 140%;
+            max-width: 640px;
+        }
+
+        &__text {
+            margin: 22px 0 0 0;
+            color: var(--text-color, #7C7A84);
+            font-size: 16px;
+            font-family: Gilroy-400;
+            line-height: 181.5%;
+            letter-spacing: 0.32px;
+            max-width: 600px;
+
+            &.second {
+                margin: 60px 0 0 0;
+            }
+        }
+
+        &__double-imgs {
+            margin: 20px 0 20px 0;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 100%;
+        }
+
+        &__img {
+            width: 100%;
+            max-width: 290px;
+            height: 203px;
+        }
+
+        &__heading1 {
+            margin: 20px 0 0 0;
+            color: var(--primary-content, #41456B);
+            font-size: 25px;
+            font-family: Gilroy-700;
+            line-height: 140%;
+            letter-spacing: 0.5px;
+            max-width: 599px;
+        }
+
+        &__text {}
+
+        &__big-img {
+            margin: 20px 0 0px 0;
+            width: 100%;
+            max-width: 600px;
+            height: 337px;
+        }
+
+        &__heading2 {
+            margin: 20px 0 -15px 0;
+            color: var(--primary-content, #41456B);
+            font-size: 20px;
+            font-family: Gilroy-700;
+            line-height: 140%;
+            letter-spacing: 0.5px;
+        }
+
+        &__very-big-img {
+            margin: 20px 0 0 0;
+            width: 100%;
+            max-width: 599px;
+            height: 338px;
+        }
+
+        &__img-description {
+            margin: 5px 0 -40px 0;
+            color: var(--text-color, #7C7A84);
+            font-size: 14px;
+            font-family: Gilroy-400;
+            line-height: 159%;
+        }
+    }
+
+    .article-might-like {}
+}
+
+@media (max-width:650px) {
+    .article-hero {
+        width: 100%;
+        max-width: 360px;
+        height: 140px;
+
+
+        &__img {}
+    }
+
+    .article-back {
+        position: absolute;
+        top: 321px;
+        left: 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        color: var(--secondary-text, #606276);
+        font-size: 16px;
+        font-family: Gilroy-700;
+        line-height: 14.364px;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+
+        &__arrow {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .article {
+        margin: 0px 0 0 0;
+        position: relative;
+        width: 100%;
+        max-width: 320px;
+        border-radius: 5px 5px 0px 0px;
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        padding: 31px 0px;
+
+        &__back {
+            position: absolute;
+            top: 32px;
+            left: -0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 2px;
+            color: var(--secondary-text, #606276);
+            font-size: 14px;
+            font-family: Gilroy-700;
+            line-height: 14.364px;
+            letter-spacing: 0.32px;
+            text-transform: uppercase;
+
+            span {
+                display: flex;
+            }
+        }
+
+        &__arrow {
+            width: 24px;
+            height: 24px;
+        }
+
+        &__time {
+            margin: 0px -1px 0 0;
+            width: 98px;
+            color: var(--secondary-text, #606276);
+            font-size: 16px;
+            font-family: Gilroy-400;
+            line-height: 180%;
+            letter-spacing: 0.32px;
+            align-self: flex-end;
+        }
+
+        &__title {
+            margin: 3px 0 0 0;
+            color: var(--primary-content, #41456B);
+            font-size: 30px;
+            font-family: Gilroy-700;
+            line-height: 140%;
+            max-width: 640px;
+        }
+
+        &__text {
+            margin: 12px 0 0 0;
+            color: var(--text-color, #7C7A84);
+            font-size: 16px;
+            font-family: Gilroy-400;
+            line-height: 181.5%;
+            letter-spacing: 0.32px;
+            max-width: 600px;
+
+            &.second {
+                margin: 63px 0 0 0;
+            }
+        }
+
+
+        &__double-imgs {
+            margin: 10px 0 0px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+        }
+
+        &__img {
+            width: 100%;
+            max-width: 320px;
+            height: 224px;
+        }
+
+        &__heading1 {
+            margin: 11px 0 0 0;
+            color: var(--primary-content, #41456B);
+            font-size: 20px;
+            font-family: Gilroy-700;
+            line-height: 140%;
+            letter-spacing: 0.4px;
+            max-width: 320px;
+        }
+
+        &__text {}
+
+        &__big-img {
+            margin: 10px 0 0px 0;
+            width: 100%;
+            max-width: 320px;
+            height: 180px;
+        }
+
+        &__heading2 {
+            margin: 10px 0 -15px 0;
+            color: var(--primary-content, #41456B);
+            font-size: 18px;
+            font-family: Gilroy-700;
+            line-height: 140%;
+            letter-spacing: 0.5px;
+        }
+
+        &__very-big-img {
+            margin: 20px 0 0 0;
+            width: 100%;
+            max-width: 320px;
+            height: 180px;
+        }
+
+        &__img-description {
+            margin: 5px 0 -40px 0;
+            color: var(--text-color, #7C7A84);
+            font-size: 14px;
+            font-family: Gilroy-400;
+            line-height: 159%;
+        }
+    }
+
+    .article-might-like {}
+}
